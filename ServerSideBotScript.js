@@ -19,7 +19,7 @@ const weatherIcon = (icon) => `http://openweathermap.org/img/w/${icon}.png`;
 const weatherHtmlTemplate = (name, main, weather, wind, clouds) => (
   `The weather in <b>${name}</b>:
 <b>${weather.main}</b> - ${weather.description}
-Temperature: <b>${main.temp} °C</b>
+Temperature: <b>${main.temp} Â°C</b>
 Pressure: <b>${main.pressure} hPa</b>
 Humidity: <b>${main.humidity} %</b>
 Wind: <b>${wind.speed} meter/sec</b>
